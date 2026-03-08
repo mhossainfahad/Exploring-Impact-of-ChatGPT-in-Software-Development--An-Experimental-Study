@@ -1,0 +1,21 @@
+.LocationSearch {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.LocationSearch input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+  outline: none;
+}
+
+.LocationSearch button {
+  padding: 0.5rem 1rem;
+  background-color: #f96302;
+  border: none;
+  color: white;
+  border-radius: 0 0.25rem 0.25rem 0;
+  cursor: pointer;
+  outline: none;
+}
