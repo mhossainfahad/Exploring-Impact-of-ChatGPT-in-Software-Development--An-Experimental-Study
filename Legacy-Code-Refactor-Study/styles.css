@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(6, 40px); /* 6 columns */
+  grid-auto-rows: 40px; /* Each row height */
+  grid-gap: 5px;
+  background-color: #eee;
+  padding: 10px;
+  border: 3px solid #333;
+  max-height: 800px; /* Adjust the max-height as needed */
+  overflow: auto; /* In case the board is taller than its container */
+}
+
+.game-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.red {
+  background-color: #ff4444;
+}
+.blue {
+  background-color: #4444ff;
+}
+.green {
+  background-color: #44ff44;
+}
+.yellow {
+  background-color: #ffff44;
+}
+.purple {
+  background-color: #ff44ff;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
